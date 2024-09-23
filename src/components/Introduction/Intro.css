@@ -1,0 +1,92 @@
+.Intro{
+    height: calc(100vh-6rem);
+    width: 100vw;
+    margin:0 auto;
+    max-width: 77rem;
+    overflow: hidden;
+    position: relative;
+
+}
+.Profile-img{
+    position: absolute;
+    top: -4rem;
+    z-index: -1;
+    right: 0;
+    object-fit: cover;
+    height: 100vh;
+    
+}
+.Introcontent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.introname{
+    color: yellow;
+}
+.Intropara{
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.animation{
+    color: yellow;
+    font-size: 2rem;
+}
+.btn{
+    background-color: white;
+    font-size: medium;
+    margin: 1rem 0rem;
+    padding: 0.75rem 1.3rem;
+    border: none;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+
+   
+    
+}
+.btn-img{
+    object-fit: cover;
+    margin: 0 0.5rem;
+    height: 2rem;
+}
+
+@media screen and (max-width:800px) {
+    .Profile-img{
+        right: -10vw;
+    }
+    .Introcontent{
+        font-size: 8vw;
+    }
+    .animation{
+        font-size: 4vw;
+    }
+    .hello{
+        font-size: 2.28vw;
+    }
+}
+@media screen and (max-width:550px) {
+    .Profile-img{
+        right: -10vw;
+    }
+    .Introcontent{
+        font-size: 10vw;
+    }
+    .animation{
+        font-size: 5vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+}

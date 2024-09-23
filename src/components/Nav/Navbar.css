@@ -1,0 +1,93 @@
+.navbar{
+    background: rgb(30,30, 30);
+    height: 6rem;
+    width: 100vw;
+    max-width: 77rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    
+}
+.logo{
+    background: rgb(30,30, 30);
+    border-radius: 0.5rem;
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+}
+.navbaritemslist{
+    margin: 1rem;
+    cursor: pointer;
+    font-size: large;
+   
+}
+.navbaritemslist:hover{
+    color: yellow;
+    padding-bottom: 1px;
+    border-bottom: 2px solid;
+}
+.navbarbtn{
+    
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 1rem;
+    
+
+}
+.navbarbtnimg{
+    object-fit: cover;
+    height: 2rem;
+    width: 2rem;
+    margin: 0.5rem;
+}
+.active{
+    color: yellow;
+    border-bottom: 3px yellow solid;
+    
+   
+}
+.mob-navmenu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: rgb(40, 40, 40);
+    border-radius: 1rem;
+}
+.mob-navbaritemslist{
+    color: white;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background: rgb(30, 30, 30);
+}
+.menu-img{
+    display: none;
+    object-fit: cover;
+    height: 2.5rem;
+    border-radius: 0.1rem;
+}
+@media screen and (max-width:650px) {
+    .menu-img{
+        display: flex;
+    }
+    .navbaritems{
+        display: none;
+    }
+    .navbarbtn{
+        display: none;
+    }
+    
+}
