@@ -3,6 +3,7 @@ import './Project.css';
 import medinavi from'../../assests/medinavi.png';
 import snake_game from '../../assests/snake_game.png';
 import travel_tracker from '../../assests/travel_tracker.png';
+import BookNexus from '../../assests/BookNexus.png';
 
 const Project=()=>{
     return (
@@ -11,6 +12,17 @@ const Project=()=>{
              <h1>Projects</h1>
         </div>
           <div className="projects">
+           
+          <a href="https://book-nexus-frontend.vercel.app/" target="blank">
+            <div className="project">
+              <img src={BookNexus} alt="BookNexus" className="project-img"/>
+              <h2>BookNexus</h2>
+                <p>
+                BookNexus, A e-library Where our mission is to create a haven for readers of all ages, offering a curated selection of books to ignite imaginations and enrich lives.From bestsellers to hidden gems, we take pride in offering a collection that caters to every reader's taste.
+                </p>
+            </div>
+            </a>
+
           <a href="https://github.com/Saurabhpal052/medinavi" target="blank">
             <div className="project" id="medinavi">
               <img src={medinavi}alt="Medinavi" className="project-img"/>
@@ -29,7 +41,7 @@ const Project=()=>{
                 </p>
             </div>
             </a>
-            <a href="">
+            <a href="https://github.com/Saurabhpal052/Hungry-Snake" target="blank">
             <div className="project">
               <img src={snake_game} alt="Snake-game" className="project-img"/>
               <h2>Snake-game</h2>

@@ -20,6 +20,7 @@ import tailwind from '../../assests/tail-wind.png';
 import vscode from '../../assests/vscode.jpeg';
 import mysql from '../../assests/mysql.png';
 import python from '../../assests/python.jpeg';
+import mogngoDB from '../../assests/mongodb-atlas.png';
 const Tech_skills=()=>{
     return (
        <section id="Tech_skill">
@@ -74,7 +75,11 @@ const Tech_skills=()=>{
                 <div className="Back-end-item">
                    <img src={postgres} alt="Postgres" className="Postgres"/>
                    <p className="Postgres-para">PostgresSQL</p>
-                </div>    
+                </div> 
+                <div className="Back-end-item">
+                   <img src={mogngoDB} alt="mongodb" className="mongodb"/>
+                   <p className="Postgres-para">MongoDB</p>
+                </div>   
                 </div>
             </div>
             <div className="language">
